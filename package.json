@@ -8,17 +8,19 @@
     "build": "vite build",
     "lint": "eslint .",
     "test": "vitest",
-    "test:run": "vitest run", 
+    "test:run": "vitest run",
     "preview": "vite preview"
   },
   "dependencies": {
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-router": "^7.10.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.19.0",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
     "@vitejs/plugin-react": "^4.3.4",
